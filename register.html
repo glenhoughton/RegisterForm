@@ -1,0 +1,54 @@
+/<!DOCTYPE html>
+<html>
+<head>
+	<title>Resister</title>
+</head>
+<body>
+	<h1>Register</h1>
+	<form><p>
+		<label for="FirstName">First Name:</label>
+		<input type="Text" name="Name" id="firstname" required>
+		<label for="LastName">:Last Name</label>
+		<input type="Text" name="Name" id="lastname" required>
+</p>
+<p>
+		<label for="Male">Male</label>
+		<input type="radio" name="Gender" id="Male" required>
+		<label for="Female">Female</label>
+		<input type="radio" name="Gender" id="Female" required>
+		<label for="Other">Other</label>
+		<input type="radio" name="Gender" id="Other" required>
+</p>
+		<p>
+		<label for="email">:Email </label>
+		<input type="email" name="email" required>
+		<label for="password">Password:</label>
+		<input type="password" name="password" required="" minlength="5" maxlength="10">
+</p>
+<p>
+	<label for="birthday">Birthday:</label>
+	<select required="">Month
+		<option>may</option>
+		<option>oct</option>
+	</select>
+<select required="">Day
+	<option>1</option>
+	<option>12</option>
+	<option>25</option>
+</select>
+<select>Year
+	<option>1963</option>
+	<option>1963</option>
+	<option>1955</option>
+</select>
+<p>
+	<label for="opt in">I agree to thr terms</label>
+	<input required type="checkbox" name="opt in">
+</p>
+</p>
+
+
+		<input type="submit" name="go">
+	</form>
+</body>
+</html>
